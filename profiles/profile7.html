@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rapid Analytics And Evaluation</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Slick Slider CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- fontawesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+    />
+    <!-- jQuery and popper js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- slick JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="/js/carousel.js"></script>
+    <!-- <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> -->
+    <link href="../style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logo2.png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">who we are</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Performance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--- Two Column Section -->
+    <div class="container-fluid padding-top">
+      <div class="row py-5">
+        <div class="col-md-12 col-lg-6">
+          <h2>
+            Meet Lawrence (Larry) Marum, MD Senior Technical Advisor/Consultant
+          </h2>
+          <p>
+            Dr. Larry Marum served as a medical officer at the Centers for
+            Disease Control and Prevention (CDC) Division of Global HIV and
+            Tuberculosis of the Center for Global Health.
+          </p>
+          <p>
+            Additionally, Dr. Marum served as CDC Country Director in several
+            countries in Sub-Sahara Africa where he has led initiatives related
+            to HIV/AIDS, sentinel surveillance and other public health programs.
+          </p>
+          <p>
+            Throughout his career, he has served in a variety of key positions
+            and medical schools in the United States and sub-Saharan Africa.
+          </p>
+          <p>
+            Larry is a board-certified pediatrician. He joins Rapid Analytics
+            and Evaluation Group as a Senior Technical Advisor and a key mentor
+            in public health programs.
+          </p>
+
+          <br />
+        </div>
+        <div class="col-lg-6">
+          <img src="/img/img7.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <!--- Connect -->
+    <!--- Footer -->
+    <footer id="footer">
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <hr class="light" />
+            <h3>Quick Contacts</h3>
+            <hr class="light" />
+            <p>0717-445-860</p>
+            <p>email@example.com</p>
+            <p>po box 134, nairobi</p>
+            <p>City, state, 9000</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>NAICS CODES</h5>
+            <hr class="light" />
+            <p>541512, 541611, 541519</p>
+            <p>541690 , 541720, 541930</p>
+            <p>561110, 561990, 611430.</p>
+          </div>
+          <div class="col-md-4 social padding">
+            <hr class="light" />
+            <h5>Reach Us On</h5>
+            <hr class="light" />
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+          </div>
+          <!-- socket section -->
+          <div class="col-12">
+            <hr class="light-100" />
+            <h5>
+              Copy Right &copy; Rapid Analytics And Evaluation 2020.All Right
+              Reserved
+            </h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      $(document).ready(function () {
+        $(".logo-carousel").slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          arrows: true,
+          dots: false,
+          pauseOnHover: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 4,
+              },
+            },
+            {
+              breakpoint: 520,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
