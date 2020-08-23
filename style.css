@@ -218,7 +218,7 @@ hr.light-100 {
 
 .parallax2 {
   height: 40vw;
-  background-image: url("img/mac.png");
+  background-image: url("./img/mac.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
